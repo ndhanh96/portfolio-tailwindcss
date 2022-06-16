@@ -7,3 +7,10 @@
     @apply scroll-smooth;
   }
 }
+
+@layer utilities {
+  .text-shadow-sm {
+    text-shadow: 2px 3px 3px black;
+
+  }
+}
