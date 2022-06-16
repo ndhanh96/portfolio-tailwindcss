@@ -18,7 +18,7 @@ const Skills = () => {
         <br></br>
         <h3 className='py-1'>
           {' '}
-          I'm currently learning to make a good looking website.
+          And learning to make a good looking website.
         </h3>
       </div>
 
