@@ -13,7 +13,7 @@ const Projects = () => {
           style={{ textShadow: '4px 4px 3px #F59B1B' }}
           className='text-3xl lg:text-4xl font-thin bg-green-900  selection:bg-fuchsia-500 text-white'
         >
-          Here's what I did from what I learned
+          Here&apos;s what I did from what I learned
         </h1>
         <div className='flex w-full justify-between items-center px-4 lg:px-10'>
           <div className='w-40 h-44 hover:cursor-pointer relative'>

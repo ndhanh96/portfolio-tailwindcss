@@ -22,7 +22,7 @@ const Skills = () => {
             ReactJs, Mysql, NextJs, Jquery, ExpressJS...
           </span>
           <br></br>
-          I'm currently rocking with NextJS everyday for both frontend and
+          I&apos;m currently rocking with NextJS everyday for both frontend and
           backend. Using Prisma to query from database.
           <br></br>
           <h3 className='py-1'>
@@ -60,7 +60,7 @@ const Skills = () => {
           </div>
         </div>
         <div className='lg:font-medium tracking-tight lg:tracking-normal text-shadow-sm selection:bg-red-600'>
-          And I'm always open to learn anything related to web.
+          And I&apos;m always open to learn anything related to web.
         </div>
       </div>
     </div>
