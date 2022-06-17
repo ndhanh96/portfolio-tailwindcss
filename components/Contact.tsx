@@ -4,11 +4,11 @@ import React from 'react';
 
 const Contact = () => {
   return (
-    <div className='relative'>
-      <div className='h-screen w-full bg-rose-500 blur-sm'></div>
+    <div className='before:absolute before:h-screen before:w-full before:bg-rose-500 before:blur-sm relative'>
+      
       <div
         id='contact'
-        className='h-screen w-full flex flex-col items-center justify-center space-y-4 absolute top-0 left-0'
+        className='h-screen w-full flex flex-col items-center justify-center space-y-4 relative'
       >
         <h1 style={{textShadow: '3px 4px 3px black'}} className='text-4xl font-thin text-neutral-200 selection:bg-teal-600 tracking-wide'>
           So you{' '}
@@ -17,7 +17,7 @@ const Contact = () => {
           </span>
           ?
         </h1>
-        <div className='flex items-center gap-2 text-shadow-sm text-lg text-neutral-200 selection:bg-emerald-700'>
+        <div className='flex flex-col lg:flex-row items-center gap-2 text-shadow-sm text-lg text-neutral-200 selection:bg-emerald-700'>
           <p className=' '>Reach me on</p>
           <div
             id='facebook'
