@@ -12,7 +12,7 @@ const Projects = () => {
       >
         <h1
           style={{ textShadow: '4px 4px 3px #F59B1B' }}
-          className='text-4xl font-thin bg-fuchsia-500 selection:bg-green-900 text-white'
+          className='text-4xl font-thin bg-green-900  selection:bg-fuchsia-500 text-white'
         >
           Here's what I did from what I learned
         </h1>
@@ -27,7 +27,7 @@ const Projects = () => {
             </Link>
           </div>
           <div className='w-full h-full grid place-items-center bg-amber-400 shadow-md shadow-yellow-500'>
-            <p className='mx-32 text-white bg-amber-600 p-10 selection:bg-blue-800'>
+            <p className='mx-32 text-white text-shadow-sm bg-amber-600 p-10 selection:bg-blue-800'>
               A uniqlo homepage with fully responsive made with TaildwindCSS and
               NextJS. Everything from navbar, slider and notice message from the
               homepage.
@@ -41,10 +41,10 @@ const Projects = () => {
             </Link>
           </div>
           <div className='w-full h-full grid place-items-center bg-amber-400 shadow-md shadow-yellow-500'>
-            <p className='mx-32 text-white bg-amber-600 p-10 selection:bg-cyan-600'>
+            <p className='mx-32 text-white text-shadow-sm bg-amber-600 p-10 selection:bg-cyan-600'>
               A todo list site which save your todos on Postgres database and
-              will require you to login to add,edit,update,delete. You can login
-              with email/passwords or login with your own googgle account
+              will require you to login to add, edit, update, delete. You can login
+              with email/passwords or login with your own google account
             </p>
           </div>
         </div>
