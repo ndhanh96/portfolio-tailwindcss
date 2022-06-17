@@ -32,7 +32,10 @@ const Skills = () => {
           </h3>
         </div>
         {/* BIG CHUNK OF SVG LOGO */}
-        <div id='logo-skills' className='flex w-full justify-center items-center py-2 gap-3'>
+        <div
+          id='logo-skills'
+          className='flex w-full justify-center items-center py-2 gap-3'
+        >
           <div className=' w-14 h-12 lg:h-14 object-cover relative'>
             <Image title='reactjs' src='/reactjs.svg' layout='fill' />
           </div>

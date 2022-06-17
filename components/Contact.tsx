@@ -5,15 +5,22 @@ import React from 'react';
 const Contact = () => {
   return (
     <div className='before:absolute before:h-screen before:w-full before:bg-rose-500 before:blur-sm relative'>
-      
       <div
         id='contact'
         className='h-screen w-full flex flex-col items-center justify-center space-y-4 relative'
       >
-        <h1 style={{textShadow: '3px 4px 3px black'}} className='text-4xl font-thin text-neutral-200 selection:bg-teal-600 tracking-wide'>
+        <h1
+          style={{ textShadow: '3px 4px 3px black' }}
+          className='text-4xl font-thin text-neutral-200 selection:bg-teal-600 tracking-wide'
+        >
           So you{' '}
           <span className=' before:absolute before:-inset-1 before:skew-y-3 before:bg-black relative inline-block'>
-            <span style={{textShadow: '2px 2px 3px pink'}} className='relative text-neutral-200'>interested</span>
+            <span
+              style={{ textShadow: '2px 2px 3px pink' }}
+              className='relative text-neutral-200'
+            >
+              interested
+            </span>
           </span>
           ?
         </h1>
@@ -36,7 +43,12 @@ const Contact = () => {
             </Link>
           </div>
           <p className=''>or just email me:</p>
-          <a className='text-yellow-300 underline' href='mailto:ndhanh96@gmail.com'>ndhanh96@gmail.com</a>
+          <a
+            className='text-yellow-300 underline'
+            href='mailto:ndhanh96@gmail.com'
+          >
+            ndhanh96@gmail.com
+          </a>
         </div>
         <div className='flex items-center h-14 absolute bottom-0 gap-2 text-white text-shadow-sm selection:bg-black'>
           <p className=''>Made with ❤️ by</p>
