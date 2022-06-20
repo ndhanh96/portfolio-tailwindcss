@@ -11,7 +11,7 @@ const Skills = () => {
       >
         <h1
           style={{ textShadow: '3px 3px 3px black ' }}
-          className='w-3/4 lg:w-auto text-3xl lg:text-4xl text-neutral-200 font-thin selection:bg-orange-500'
+          className='w-3/4 lg:w-auto text-3xl tracking-tight lg:tracking-normal lg:text-4xl text-neutral-200 font-thin selection:bg-orange-500'
         >
           So what do I <span className='font-semibold'>know</span> ?
         </h1>
@@ -59,7 +59,7 @@ const Skills = () => {
             <Image title='prisma-orm' src='/prisma.svg' layout='fill' />
           </div>
         </div>
-        <div className='w-full text-center text-sm lg:text-base lg:font-medium text-shadow-sm selection:bg-red-600'>
+        <div className='w-full text-center text-xs lg:text-base lg:font-medium text-shadow-sm selection:bg-red-600'>
           And I&apos;m always open to learn anything related to web.
         </div>
       </div>
