@@ -24,8 +24,8 @@ const Contact = () => {
           </span>
           ?
         </h1>
-        <div className='flex flex-col lg:flex-row items-center gap-2 text-shadow-sm text-lg text-neutral-200 selection:bg-emerald-700'>
-          <p className=' '>Reach me on</p>
+        <div className='flex flex-col lg:flex-row items-center lg:gap-2 text-shadow-sm text-lg text-neutral-200 selection:bg-emerald-700'>
+          <p className=''>Reach me on</p>
           <div
             id='facebook'
             className='h-10 w-10 hover:cursor-pointer selection:bg-emerald-200 relative'

@@ -49,17 +49,16 @@ const Projects = () => {
         </div>
         <div
           style={{ textShadow: '2px 2px 2px #F59B1B' }}
-          className='flex gap-2 lg:gap-1 text-xs tracking-tighter '
+          className='flex gap-2 lg:gap-1 text-xs lg:text-base '
         >
           <p className=' text-zinc-800 '>
-            And few others Jquery projects I made along the way:
+            And check out my github:
+            <span>
+              <Link href='https://github.com/ndhanh96'>
+                <a className='text-red-600'>Github</a>
+              </Link>
+            </span>
           </p>
-          <Link href='https://ndhanh96.github.io/JavaScript-Calculator/'>
-            <a className='text-red-600'>Calculator</a>
-          </Link>
-          <Link href='https://ndhanh96.github.io/Tic-Tac-Toe-Game/'>
-            <a className='text-blue-600'>Tic-tac-toe</a>
-          </Link>
         </div>
       </div>
     </div>

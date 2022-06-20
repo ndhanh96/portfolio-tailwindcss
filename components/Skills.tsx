@@ -15,7 +15,7 @@ const Skills = () => {
         >
           So what do I <span className='font-semibold'>know</span> ?
         </h1>
-        <div className='w-3/4 text-lg lg:text-xl font-light text-shadow-sm selection:bg-indigo-700'>
+        <div className='w-3/4 lg:w-2/3 text-lg lg:text-xl font-light text-shadow-sm selection:bg-indigo-700'>
           Just like everyone new to industry trying to get a job. I know basic
           stuff but no real experiences. Things I know like:{' '}
           <span className='font-semibold'>
@@ -59,7 +59,7 @@ const Skills = () => {
             <Image title='prisma-orm' src='/prisma.svg' layout='fill' />
           </div>
         </div>
-        <div className='lg:font-medium tracking-tight lg:tracking-normal text-shadow-sm selection:bg-red-600'>
+        <div className='font-light lg:font-medium tracking-tight lg:tracking-normal text-shadow-sm selection:bg-red-600'>
           And I&apos;m always open to learn anything related to web.
         </div>
       </div>
