@@ -59,7 +59,7 @@ const Skills = () => {
             <Image title='prisma-orm' src='/prisma.svg' layout='fill' />
           </div>
         </div>
-        <div className='text-sm lg:text-base lg:font-medium tracking-tight lg:tracking-normal text-shadow-sm selection:bg-red-600'>
+        <div className='w-full text-center text-sm lg:text-base lg:font-medium text-shadow-sm selection:bg-red-600'>
           And I&apos;m always open to learn anything related to web.
         </div>
       </div>
