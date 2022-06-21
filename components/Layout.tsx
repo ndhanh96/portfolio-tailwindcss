@@ -8,7 +8,7 @@ export const Layout = ({ children }: { children: ReactNode }) => {
       <Head>
         <title>Portfolio | ndhanh96</title>
       </Head>
-      <div className='flex w-full h-screen h-screen-mobile'>
+      <div className='flex w-full absolute inset-0'>
         <SideBar />
         <main className='w-full overflow-auto'>{children}</main>
       </div>
