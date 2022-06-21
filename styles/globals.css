@@ -11,6 +11,8 @@
 @layer utilities {
   .text-shadow-sm {
     text-shadow: 2px 3px 3px black;
-
+  }
+  .h-screen-mobile {
+    min-height: -webkit-fill-available;
   }
 }

@@ -4,10 +4,10 @@ import React from 'react';
 
 const Projects = () => {
   return (
-    <div className='before:h-screen before:absolute before:top-0 before:left-0 before:w-full before:bg-yellow-300 before:blur-sm relative'>
+    <div className='before:h-screen before:h-screen-mobile before:absolute before:top-0 before:left-0 before:w-full before:bg-yellow-300 before:blur-sm relative'>
       <div
         id='projects'
-        className='h-screen w-full flex flex-col items-center justify-center gap-10 relative'
+        className='h-screen h-screen-mobile w-full flex flex-col items-center justify-center gap-10 relative'
       >
         <h1
           style={{ textShadow: '4px 4px 3px #F59B1B' }}

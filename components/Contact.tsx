@@ -4,10 +4,10 @@ import React from 'react';
 
 const Contact = () => {
   return (
-    <div className='before:absolute before:h-screen before:w-full before:bg-rose-500 before:blur-sm relative'>
+    <div className='before:absolute before:h-screen before:h-screen-mobile before:w-full before:bg-rose-500 before:blur-sm relative'>
       <div
         id='contact'
-        className='h-screen w-full flex flex-col items-center justify-center space-y-4 relative'
+        className='h-screen h-screen-mobile w-full flex flex-col items-center justify-center space-y-4 relative'
       >
         <h1
           style={{ textShadow: '3px 4px 3px black' }}

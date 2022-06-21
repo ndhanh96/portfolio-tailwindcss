@@ -3,11 +3,11 @@ import React from 'react';
 
 const Skills = () => {
   return (
-    <div className='relative'>
-      <div className='h-screen w-full bg-green-600 blur-sm'></div>
+    <div className='before:absolute before:h-screen before:h-screen-mobile before:w-full before:bg-green-600 before:blur-sm relative'>
+      {/* <div className='h-screen w-full bg-green-600 blur-sm'></div> */}
       <div
         id='skills'
-        className='w-full absolute top-0 left-0 h-screen flex flex-col justify-center items-center gap-2  text-neutral-100 '
+        className='w-full top-0 left-0 h-screen h-screen-mobile flex flex-col justify-center items-center gap-2  text-neutral-100 relative'
       >
         <h1
           style={{ textShadow: '3px 3px 3px black ' }}
