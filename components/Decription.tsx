@@ -23,7 +23,7 @@ const Decription = () => {
           and learning ReactJS, I live in{' '}
           <span className='font-semibold'>Ho Chi Minh</span> city, I like making
           website and learning to various things. I also practice my English in
-          my freetime so I&apos;m kinda good at it too.
+          my freetime.
         </div>
       </div>
     </div>
