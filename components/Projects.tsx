@@ -13,7 +13,7 @@ const Projects = () => {
           style={{ textShadow: '4px 4px 3px #F59B1B' }}
           className='text-3xl lg:text-4xl font-thin bg-green-900  selection:bg-fuchsia-500 text-white'
         >
-          Here&apos;s what I did from what I learned
+          Here&apos;s what I did from what I learned.
         </h1>
         <div className='flex w-full justify-between items-center px-4 lg:px-10'>
           <div className='w-40 h-44 hover:cursor-pointer relative'>
@@ -27,9 +27,9 @@ const Projects = () => {
           </div>
           <div className='w-full h-full grid place-items-center bg-amber-400 shadow-md shadow-yellow-500'>
             <p className='mx-4 lg:mx-32 text-sm lg:text-base text-white text-shadow-sm bg-amber-600 p-2 lg:p-10 selection:bg-blue-800'>
-              A uniqlo homepage with fully responsive made with TaildwindCSS and
-              NextJS. Everything from navbar, slider and notice message from the
-              homepage.
+              A Uniqlo homepage made fully responsive with TaildwindCSS and
+              NextJS. Everything from the navbar, slider, and notice message
+              from the homepage
             </p>
           </div>
         </div>
@@ -41,9 +41,10 @@ const Projects = () => {
           </div>
           <div className='w-full h-full grid place-items-center bg-amber-400 shadow-md shadow-yellow-500'>
             <p className='mx-4 lg:mx-32 text-sm lg:text-base text-white text-shadow-sm bg-amber-600 p-2 lg:p-10 selection:bg-cyan-600'>
-              A todo list site which save your todos on Postgres database and
-              will require you to login to add, edit, update, delete. You can
-              login with email/passwords or login with your own google account
+              A todo list site which saves your todos on a Postgres database and
+              will require you to login to add, edit, update, and delete. You
+              can login with email and passwords or login with your own Google
+              account.
             </p>
           </div>
         </div>

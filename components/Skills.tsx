@@ -16,19 +16,19 @@ const Skills = () => {
           So what do I <span className='font-semibold'>know</span> ?
         </h1>
         <div className='w-3/4 lg:w-2/3 text-lg lg:text-xl font-light text-shadow-sm selection:bg-indigo-700'>
-          Just like everyone new to industry trying to get a job. I know basic
-          stuff but no real experiences. Things I know like:{' '}
+          just like everyone new to the industry trying to get a job. I know the
+          basic stuff but have no real experience. Things I know like:{' '}
           <span className='font-semibold'>
             ReactJs, Mysql, NextJs, Jquery, ExpressJS...
           </span>
           <br></br>
-          I&apos;m currently rocking with NextJS everyday for both frontend and
-          backend. Using Prisma to query from database.
+          I&apos;m currently rocking with NextJS every day for both frontend and
+          backend. Using Prisma to query the database
           <br></br>
           <h3 className='py-1'>
             {' '}
-            And <span className='font-semibold'>learning</span> to make a good
-            looking website.
+            And I&apos;m <span className='font-semibold'>learning</span> to make
+            a good looking website.
           </h3>
         </div>
         {/* BIG CHUNK OF SVG LOGO */}
@@ -60,7 +60,7 @@ const Skills = () => {
           </div>
         </div>
         <div className='w-full text-center text-xs lg:text-base lg:font-medium text-shadow-sm selection:bg-red-600'>
-          And I&apos;m always open to learn anything related to web.
+          And I&apos;m always open to learning anything related to the web.
         </div>
       </div>
     </div>

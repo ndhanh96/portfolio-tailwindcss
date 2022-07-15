@@ -12,18 +12,18 @@ const Decription = () => {
           style={{ textShadow: '5px 4px 5px black ' }}
           className='w-3/4 lg:w-auto text-3xl lg:text-4xl text-neutral-200 font-thin font-sans selection:bg-pink-600'
         >
-          Hi there, Welcome to my portfolio
+          Hi there, Welcome to my portfolio.
         </h1>
         <div
           // style={{ textShadow: '1px 2px 3px black' }}
           className='w-3/4 lg:w-2/3 text-neutral-100 text-lg lg:text-xl text-shadow-sm font-light tracking-wider selection:bg-yellow-500'
         >
-          I&apos;m Hạnh, 26 years old, this is my portfolio page, I&apos;m
+          I&apos;m Hạnh, 26 years old. This is my portfolio page. I&apos;m
           currently <span className='font-semibold'>looking for a job</span>,
           and learning ReactJS, I live in{' '}
-          <span className='font-semibold'>Ho Chi Minh</span> city, I like making
-          website and learning to various things. I also practice my English in
-          my freetime so I&apos;m kinda good at it too.
+          <span className='font-semibold'>Ho Chi Minh</span> City. I like making
+          websites and learning various things. I also practice my English in my
+          free time.
         </div>
       </div>
     </div>
