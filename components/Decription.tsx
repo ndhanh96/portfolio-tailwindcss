@@ -21,15 +21,9 @@ const Decription = () => {
           I&apos;m Hạnh, 26 years old. This is my portfolio page. I&apos;m
           currently <span className='font-semibold'>looking for a job</span>,
           and learning ReactJS, I live in{' '}
-<<<<<<< HEAD
           <span className='font-semibold'>Ho Chi Minh</span> City. I like making
           websites and learning various things. I also practice my English in my
           free time.
-=======
-          <span className='font-semibold'>Ho Chi Minh</span> city, I like making
-          website and learning to various things. I also practice my English in
-          my freetime.
->>>>>>> 4d659dad94688db606b60c4f149958dccd1da36a
         </div>
       </div>
     </div>
